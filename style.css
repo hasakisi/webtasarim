@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    word-spacing: -4px;
+    letter-spacing: -2px;
+}
+
