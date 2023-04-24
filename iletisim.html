@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tunay Yıldız</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+<style>
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.4s ease-in-out;
+    -moz-transition: border-color 0.4s ease-in-out;
+    transition: border-color 0.4s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contact textarea {
+    height: 120px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    font: 500 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #3F72AF;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: #112D4E;
+    -webkit-transition: background 0.4s ease-in-out;
+    -moz-transition: background 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+
+#contact {
+        background: #F9F9F9;
+        padding: 25px;
+        margin: 100px 0;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h2 {
+        display: block;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 15px;
+}
+
+
+</style>
+</head>
+<body>
+
+    <header>
+        <div id="logo">Tunay Yıldız</div>
+    </header>
+
+    <main>
+        <div id="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="anasayfa.html">Ana Sayfa</a></li>
+                    <li><a href="hakkimda.html">Hakkımda</a></li>
+                    <li><a href="works.html">Çalışmalarım</a></li>
+                    <li><a href="education.html">Eğitim Hayatım</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                    <li><a href="hobilerim.html">Hobilerim</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="container">
+            <div class="container-p">
+                <div class="innercontainer">
+                    <form id="contact" action="" method="">
+                        <h2>İletişim Sayfası</h2>
+                        <div class="form-control">
+                            <input placeholder="Adınız Soyadınız" type="text" required autofocus>
+                        </div>
+                        <div class="form-control">
+                            <input placeholder="E-Posta Adresiniz" type="email" required>
+                        </div>
+                        <div class="form-control">
+                            <input placeholder="Konu" type="text" required>
+                        </div>
+                        <div class="form-control">
+                            <textarea placeholder="Lütfen Mesajınızı Buraya Yazın.." required></textarea>
+                        </div>
+                        <div class="form-control">
+                            <button name="submit" type="submit" id="submit">GÖNDER</button>
+                        </div>
+                    </form>
+                </div>
+                
+
+            </div>            
+        </div>
+    </main>
+
+    <footer>
+        <h2>Tüm Hakları Saklıdır.</h2>
+        
+        <h4>tunayylz22@gmail.com</h4>
+        <span id="github"><a href="https://github.com/hasakisi">GITHUB</a></span>
+    </footer>
+
+</body>
+ 
